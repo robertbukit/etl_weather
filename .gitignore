@@ -1,0 +1,17 @@
+# Kredensial & Variabel Lingkungan (Wajib Tersembunyi)
+.env
+*.env
+airflow-standalone-init.json
+profiles.yml
+
+# Folder Sampah Python
+__pycache__/
+*.pyc
+
+# Folder Data Database Lokal (Agar Git Tidak Berat)
+postgres/data/
+data/
+
+# Folder Virtual Environment Python
+venv/
+.venv/
